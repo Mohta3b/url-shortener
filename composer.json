@@ -1,0 +1,19 @@
+{
+  "name": "amirali.vahidizoodfood.ir/url-shortener",
+  "autoload": {
+    "psr-4": {
+      "UrlShortener\\": "src/",
+      "Database\\": "src/Database/",
+      "Http\\": "src/Http/",
+      "Router\\": "src/Router/",
+      "Service\\": "src/Service/"
+    },
+    "files": [
+      "functions.php"
+    ]
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
